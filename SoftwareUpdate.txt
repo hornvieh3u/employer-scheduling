@@ -1,1 +1,1 @@
-Pin duckdb<=0.9.2 to avoid 0.10.0 errors (#8181)
+ultralytics 8.0.227 respect defaults.yaml data (#6935)
