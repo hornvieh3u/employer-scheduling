@@ -1,1 +1,1 @@
-Fix Neural Magic links (#9144)
+Add visuals in guides/distance-calculation.md (#7876)
