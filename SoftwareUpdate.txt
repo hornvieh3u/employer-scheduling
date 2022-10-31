@@ -1,1 +1,1 @@
-Add HUB-SDK Docs reference section (#7781)
+Fix cmake requirements for ARM64 (#8589)
