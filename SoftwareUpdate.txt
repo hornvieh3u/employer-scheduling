@@ -1,1 +1,1 @@
-Fix OpenVINO links (#7930)
+Merge pull request #22 from SkalskiP/patch-1
