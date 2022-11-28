@@ -1,1 +1,1 @@
-Add yolo_bbox2segment docs reference (#7751)
+ultralytics 8.0.229 add model.embed() method (#7098)
