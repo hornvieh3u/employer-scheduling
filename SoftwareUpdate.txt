@@ -1,1 +1,1 @@
-Fix Neural Magic links (#9144)
+fix yolo classify model loading error (#9196)
