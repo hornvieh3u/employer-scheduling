@@ -1,1 +1,1 @@
-update requirements.txt
+Mkdocs annotations fixes (#7600)
