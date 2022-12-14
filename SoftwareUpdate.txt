@@ -1,1 +1,1 @@
-Elaborate Train and Predict mode docs arguments (#8137)
+Pass callbacks to validator (#7320)
