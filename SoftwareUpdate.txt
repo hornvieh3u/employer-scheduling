@@ -1,1 +1,1 @@
-Mkdocs annotations fixes (#7600)
+Elaborate Train and Predict mode docs arguments (#8137)
