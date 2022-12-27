@@ -1,1 +1,1 @@
-Update Docs language dropdown height (#6927)
+Add PaddlePaddle Docs Integrations Page (#8858)
