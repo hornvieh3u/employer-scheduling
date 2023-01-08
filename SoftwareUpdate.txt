@@ -1,1 +1,1 @@
-OpenVino 2024.0.0 (#8726)
+Update CI.md with CI links (#8786)
