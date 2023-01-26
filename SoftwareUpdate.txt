@@ -1,1 +1,1 @@
-Update Dockerfile for Raspberry Pi Support (#8123)
+ultralytics 8.0.237 cv2.CAP_PROP fix and in_counts and out_counts displays (#7380)
