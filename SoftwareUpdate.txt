@@ -1,1 +1,1 @@
-Segment TensorRT batch=3 fix (#7952)
+Use pathlib in DOTA ops (#7552)
