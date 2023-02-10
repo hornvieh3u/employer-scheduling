@@ -1,1 +1,1 @@
-Update Discord and Contributing Guide URLs (#9270)
+New test for labels and crops (#8861)
