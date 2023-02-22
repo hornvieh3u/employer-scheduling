@@ -1,1 +1,1 @@
-fix print val map
+Add plot_images conf_thresh parameter (#8446)
