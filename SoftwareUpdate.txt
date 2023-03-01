@@ -1,1 +1,1 @@
-Update the heatmap module code + docs (#7045)
+Compare plt.get_backend() in lowercase (#8409)
