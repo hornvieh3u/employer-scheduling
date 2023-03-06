@@ -1,1 +1,1 @@
-Compare plt.get_backend() in lowercase (#8409)
+Fix an issue with flatbuffer version for Raspberry Pi (#8311)
