@@ -1,1 +1,1 @@
-Rename model_id to model.id (#8447)
+Fix IS_PYTHON_3_12 bug (#9258)
