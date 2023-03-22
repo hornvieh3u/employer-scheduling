@@ -1,1 +1,1 @@
-Merge pull request #22 from SkalskiP/patch-1
+Add https://youtu.be/OpWpBI35A5Y to inference-api Docs (#8717)
