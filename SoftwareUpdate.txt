@@ -1,1 +1,1 @@
-Fix xyxyxyxyn calculation in obb result (#8188)
+RTDETRDetectionModel TorchScript, ONNX Predict and Val support (#8818)
