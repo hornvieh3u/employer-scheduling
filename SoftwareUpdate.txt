@@ -1,1 +1,1 @@
-RTDETRDetectionModel TorchScript, ONNX Predict and Val support (#8818)
+Add polygon regions drawing support in object-counting.md and minor docs update (#8885)
