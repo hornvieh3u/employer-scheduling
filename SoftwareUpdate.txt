@@ -1,1 +1,1 @@
-Remove unused variables (#8511)
+Resize angle, count, and stage on keypoint number change (#7598)
