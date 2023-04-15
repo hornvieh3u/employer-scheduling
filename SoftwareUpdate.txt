@@ -1,1 +1,1 @@
-ultralytics 8.0.228 add training time argument (#7054)
+Retry once for Docker CI failures (#8164)
