@@ -1,1 +1,1 @@
-Fix heatmaps width-height order bug (#7184)
+Fix Multi-GPU resume bug (#7328)
