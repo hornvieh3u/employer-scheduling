@@ -1,1 +1,1 @@
-Update Docs robots.txt (#7728)
+fix predict with class filter
