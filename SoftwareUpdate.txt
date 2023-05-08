@@ -1,1 +1,1 @@
-Add PaddlePaddle Docs Integrations Page (#8858)
+Fix Yolo 8.0.206 scale bug (#7821)
