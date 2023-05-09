@@ -1,1 +1,1 @@
-Fix Yolo 8.0.206 scale bug (#7821)
+Fix xyxyxyxyn calculation in obb result (#8188)
