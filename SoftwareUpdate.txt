@@ -1,1 +1,1 @@
-Fix xyxyxyxyn calculation in obb result (#8188)
+Elaborate Train and Predict mode docs arguments (#8137)
