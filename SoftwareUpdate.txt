@@ -1,1 +1,1 @@
-Remove JAX constraints in Exporter (#8309)
+ultralytics 8.1.0 YOLOv8 Oriented Bounding Box (OBB) release (#7463)
