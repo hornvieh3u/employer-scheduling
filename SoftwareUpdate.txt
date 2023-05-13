@@ -1,1 +1,1 @@
-ultralytics 8.1.0 YOLOv8 Oriented Bounding Box (OBB) release (#7463)
+Add TFLite Edge TPU Docs Integrations Page  (#8900)
