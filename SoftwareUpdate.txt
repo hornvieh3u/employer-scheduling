@@ -1,1 +1,1 @@
-Add https://youtu.be/96NkhsV-W1U to docs and heatmaps fix (#7944)
+ultralytics 8.0.236 dataset semantic & SQL search API (#7136)
