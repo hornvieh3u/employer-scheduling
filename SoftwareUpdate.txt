@@ -1,1 +1,1 @@
-Fix Multi-GPU resume bug (#7328)
+Update YOLOv3 and YOLOv5 YAMLs (#7574)
