@@ -1,1 +1,1 @@
-Add ONNX Docs integrations page (#7802)
+Add line counting and circular heatmaps in Ultralytics Solutions (#7113)
