@@ -1,1 +1,1 @@
-Fix test_mlflow_keep_run_active() (#8868)
+Update CI.md with CI links (#8786)
