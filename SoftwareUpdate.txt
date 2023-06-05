@@ -1,1 +1,1 @@
-ultralytics 8.1.10 MLFlow, OBB, TFLite and INT8 fixes (#8016)
+FROM pytorch/pytorch:2.2.0-cuda12.1-cudnn8-runtime (#8104)
