@@ -1,1 +1,1 @@
-ultralytics 8.1.3 ResNet models and lighter dependencies (#7700)
+Add KaTeX support + updates to YOLOv9 model page (#8531)
