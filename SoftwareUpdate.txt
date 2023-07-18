@@ -1,1 +1,1 @@
-Add simple-utilities.md Docs page (#8269)
+Fix undefined ‘im_array’ bug in predict.md (#8565)
