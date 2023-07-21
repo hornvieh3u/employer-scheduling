@@ -1,1 +1,1 @@
-Desktop Mode Switch - A switch inside the tab switcher that can be used to toggle desktop mode on / off globally
+Add OBB models to GITHUB_ASSET_NAMES (#7425)
