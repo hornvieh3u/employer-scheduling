@@ -1,1 +1,1 @@
-Add OBB models to GITHUB_ASSET_NAMES (#7425)
+Add docs links to all dataset YAMLs (#7360)
