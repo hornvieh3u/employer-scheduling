@@ -1,1 +1,1 @@
-Add https://youtu.be/ZzUSXQkLbNw to Integration Docs (#8793)
+Pin duckdb<=0.9.2 to avoid 0.10.0 errors (#8181)
