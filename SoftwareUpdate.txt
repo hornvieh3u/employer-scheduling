@@ -1,1 +1,1 @@
-Add missing Explorer docs reference pages (#7455)
+Add OBB models to GITHUB_ASSET_NAMES (#7425)
