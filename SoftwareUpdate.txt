@@ -1,1 +1,1 @@
-fix export tensorrt with dynamic size
+Add OBB models to GITHUB_ASSET_NAMES (#7425)
