@@ -1,1 +1,1 @@
-Fix docs H1 tags (#7182)
+Expand Model method type hinting (#8279)
