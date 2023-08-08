@@ -1,1 +1,1 @@
-Use pathlib in DOTA ops (#7552)
+Python refactorings and simplifications (#7549)
