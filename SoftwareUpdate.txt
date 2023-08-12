@@ -1,1 +1,1 @@
-Fix device counting method to account for double-digit device IDs (#8502)
+ultralytics 8.1.0 YOLOv8 Oriented Bounding Box (OBB) release (#7463)
