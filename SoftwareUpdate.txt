@@ -1,1 +1,1 @@
-Fix bbox2segment converter (#7814)
+Adds toggle displaying labels in GUI and verbose log on start (#7804)
