@@ -1,1 +1,1 @@
-Expand Model method type hinting (#8279)
+Fix solution functions description + integrations/openvino.md cover image update (#8170)
