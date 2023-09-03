@@ -1,1 +1,1 @@
-Fix RTDETR generate anchor grid out of boundary (#7247)
+Add speed_estimation and distance_calculation in ultralytics solutions (#7325)
