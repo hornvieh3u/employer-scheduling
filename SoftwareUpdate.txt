@@ -1,1 +1,1 @@
-Add missing Explorer docs reference pages (#7455)
+Add type hinting to explorer.py (#7388)
