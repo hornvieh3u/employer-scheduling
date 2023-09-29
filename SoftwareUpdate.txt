@@ -1,1 +1,1 @@
-Improve Docs arguments tables (#8415)
+Add visuals in guides/distance-calculation.md (#7876)
