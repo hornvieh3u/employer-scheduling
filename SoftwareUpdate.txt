@@ -1,1 +1,1 @@
-Compare plt.get_backend() in lowercase (#8409)
+* fix for predicting with batch_size > 1
