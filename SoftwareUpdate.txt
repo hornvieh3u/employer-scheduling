@@ -1,1 +1,1 @@
-Update Docs README (#8919)
+Compare plt.get_backend() in lowercase (#8409)
