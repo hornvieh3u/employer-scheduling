@@ -1,1 +1,1 @@
-ultralytics 8.1.5 add OBB Tracking support (#7731)
+ultralytics 8.0.233 improve Classify train augmentations (#4546)
