@@ -1,1 +1,1 @@
-ultralytics 8.0.233 improve Classify train augmentations (#4546)
+Add millimeters in solutions/distance_caculation.py + object-cropping.md visuals (#7860)
