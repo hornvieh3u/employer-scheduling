@@ -1,1 +1,1 @@
-Add line counting and circular heatmaps in Ultralytics Solutions (#7113)
+Add polygon regions drawing support in object-counting.md and minor docs update (#8885)
