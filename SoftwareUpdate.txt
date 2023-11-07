@@ -1,1 +1,1 @@
-ultralytics 8.1.3 ResNet models and lighter dependencies (#7700)
+Add HeatMap guide in real-world-projects + Code in Solutions Directory (#6796)
