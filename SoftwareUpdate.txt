@@ -1,1 +1,1 @@
-Add HeatMap guide in real-world-projects + Code in Solutions Directory (#6796)
+ultralytics 8.1.31 NCNN and CLIP updates (#9235)
