@@ -1,1 +1,1 @@
-Faster batch same_shapes (#8851)
+ultralytics 8.0.228 add training time argument (#7054)
