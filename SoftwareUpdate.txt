@@ -1,1 +1,1 @@
-Capitalize OBB acronym (#7383)
+Embed Heatmaps YouTube video in Ultralytics Docs (#7129)
