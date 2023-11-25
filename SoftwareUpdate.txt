@@ -1,1 +1,1 @@
-TensorRT FP16 export with dynamic=True (#7870)
+Add https://youtu.be/rCggzXRRSRo to Speed Estimation Docs (#8577)
