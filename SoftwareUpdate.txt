@@ -1,1 +1,1 @@
-Add https://youtu.be/rCggzXRRSRo to Speed Estimation Docs (#8577)
+Compress explorer image in dataset/index.md + description added for new segmentation datasets (#7901)
