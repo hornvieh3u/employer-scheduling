@@ -1,1 +1,1 @@
-ultralytics 8.1.23 add YOLOv9-C and E models (#8571)
+ultralytics 8.1.18 add cmake for building onnxsim on aarch64 (#8395)
