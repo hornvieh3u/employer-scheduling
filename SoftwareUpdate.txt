@@ -1,1 +1,1 @@
-Update fraction arg to employ a random selection (#8234)
+Expand Model method type hinting (#8279)
