@@ -1,1 +1,1 @@
-Tracker: clean up GMC (#8003)
+OpenVino 2024.0.0 (#8726)
