@@ -1,1 +1,1 @@
-OpenVino 2024.0.0 (#8726)
+New MLFLOW_KEEP_RUN_ACTIVE flag for enhanced MLflow run management (#8808)
