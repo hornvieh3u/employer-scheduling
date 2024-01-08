@@ -1,1 +1,1 @@
-Faster batch same_shapes (#8851)
+Add Ultralytics HUB Cloud Training banner to Docs (#8656)
