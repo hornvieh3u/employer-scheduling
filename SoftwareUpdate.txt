@@ -1,1 +1,1 @@
-Replacing Images for torchscript.md (#8596)
+Update mkdocs-ultralytics-plugin>=0.0.44 (#8347)
