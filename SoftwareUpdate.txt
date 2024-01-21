@@ -1,1 +1,1 @@
-ultralytics 8.1.33 fix HUB model checks (#9153)
+Ultralytics Actions with OpenAI GPT-4 PR Summary (#7867)
