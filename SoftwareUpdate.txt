@@ -1,1 +1,1 @@
-Compress docs images (#8124)
+Add TF SavedModel Docs Integrations Page (#9162)
