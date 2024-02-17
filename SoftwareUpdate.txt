@@ -1,1 +1,1 @@
-added badges (#45)
+Segment TensorRT batch=3 fix (#7952)
