@@ -1,1 +1,1 @@
-Segment TensorRT batch=3 fix (#7952)
+Mkdocs annotations fixes (#7600)
