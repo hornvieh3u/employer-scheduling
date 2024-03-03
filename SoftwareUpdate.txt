@@ -1,1 +1,1 @@
-Fixed RTDETR GFLOPs bug (#7309)
+Add HUB-SDK Docs reference section (#7781)
