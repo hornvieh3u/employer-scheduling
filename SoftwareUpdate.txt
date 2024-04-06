@@ -1,1 +1,1 @@
-ultralytics 8.0.227 respect defaults.yaml data (#6935)
+Add PR Summary step to Ultralytics Actions (#7675)
