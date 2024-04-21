@@ -1,1 +1,1 @@
-Fix OpenVINO missing batch-size bug (#9264)
+Download Manager - Extensive enhancements to the downloading functionality of Safari, check the preference page for more detailed info
