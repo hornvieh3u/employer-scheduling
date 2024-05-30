@@ -1,1 +1,1 @@
-Mkdocs updates (#8008)
+Update CI.md with CI links (#8786)
