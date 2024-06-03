@@ -1,1 +1,1 @@
-Update CI.md with CI links (#8786)
+Fix device counting method to account for double-digit device IDs (#8502)
