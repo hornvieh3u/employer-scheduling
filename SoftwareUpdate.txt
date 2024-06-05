@@ -1,1 +1,1 @@
-Add Neural Magic Docs integrations page (#7234)
+Add yolo_bbox2segment docs reference (#7751)
