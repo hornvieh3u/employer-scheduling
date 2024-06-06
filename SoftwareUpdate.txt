@@ -1,1 +1,1 @@
-Update TFLite Docs images (#8605)
+Try Apple M1 runners for Tests and Benchmarks CI (#8162)
