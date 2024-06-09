@@ -1,1 +1,1 @@
-Add YOLOv9 Docs page (#8478)
+Update CI.md with CI links (#8786)
