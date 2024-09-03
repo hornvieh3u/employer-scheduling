@@ -1,0 +1,90 @@
+// ** React Imports
+import { Fragment } from 'react'
+
+// ** Custom Components
+import Avatar from '@components/avatar'
+
+// ** Third Party Components
+import { toast } from 'react-toastify'
+import { X, Loader, Info } from 'react-feather'
+
+// ** Reactstrap Imports
+import { Card, CardHeader, CardBody, CardTitle, Button } from 'reactstrap'
+
+const ErrorToast = () => (
+  <Fragment>
+    <div className='toastify-header'>
+      <div className='title-wrapper'>
+        <Avatar size='sm' color='danger' icon={<X size={12} />} />
+        <h6 className='text-danger ms-50 mb-0'>Delayed</h6>
+      </div>
+      <small className='text-muted'>11 Min Ago</small>
+    </div>
+    <div className='toastify-body'>
+      <span>Candy jelly-o apple pie chocolate bar croissant gummies tiramisu macaroon.</span>
+    </div>
+  </Fragment>
+)
+
+const AutoCloseToast = () => (
+  <Fragment>
+    <div className='toastify-header'>
+      <div className='title-wrapper'>
+        <Avatar size='sm' color='primary' icon={<Loader size={12} />} />
+        <h6 className='text-primary ms-50 mb-0'>Auto Close</h6>
+      </div>
+      <small className='text-muted'>11 Min Ago</small>
+    </div>
+    <div className='toastify-body'>
+      <span>Candy jelly-o apple pie chocolate bar croissant gummies tiramisu macaroon.</span>
+    </div>
+  </Fragment>
+)
+
+const InfoToast = () => (
+  <Fragment>
+    <div className='toastify-header'>
+      <div className='title-wrapper'>
+        <Avatar size='sm' color='info' icon={<Info size={12} />} />
+        <h6 className='text-info ms-50 mb-0'>Sticky Toast!</h6>
+      </div>
+      <small className='text-muted'>11 Min Ago</small>
+    </div>
+    <div className='toastify-body'>
+      <span>Candy jelly-o apple pie chocolate bar croissant gummies tiramisu macaroon.</span>
+    </div>
+  </Fragment>
+)
+
+const Toastr = () => {
+  const notifyDelay = () => toast.error(<ErrorToast />, { icon: false, autoClose: 10000, hideProgressBar: true })
+  const notifySticky = () => toast.info(<InfoToast />, { icon: false, autoClose: false, hideProgressBar: true })
+  const notifyAutoClose = () => {
+    return toast.success(<AutoCloseToast />, { icon: false, autoClose: 3000, hideProgressBar: true })
+  }
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle tag='h4'>Options</CardTitle>
+      </CardHeader>
+      <CardBody>
+        <div className='demo-inline-spacing'>
+          <Button color='primary' outline onClick={notifyDelay}>
+            Delay
+          </Button>
+
+          <Button color='primary' outline onClick={notifyAutoClose}>
+            AutoClose
+          </Button>
+
+          <Button color='primary' outline onClick={notifySticky}>
+            Sticky
+          </Button>
+        </div>
+      </CardBody>
+    </Card>
+  )
+}
+
+export default Toastr

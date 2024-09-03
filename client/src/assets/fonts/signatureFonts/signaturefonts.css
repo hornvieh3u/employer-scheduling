@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: "style1";
+    src: url('fonts/CreattionDemo.otf'); 
+  }
+  @font-face {
+    font-family: "style2";
+    src: url('fonts/SouthamDemo.otf'); 
+  }
+  @font-face {
+    font-family: "style3";
+    src: url('fonts/HolligateSignatureDemo.ttf'); /* IE9*/
+  }

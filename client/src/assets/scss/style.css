@@ -1,0 +1,95 @@
+/*================================================================================
+	Item Name: MyManager - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.client-info-set {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-info-set span:nth-child(2) {
+  font-weight: 700;
+}
+
+.cic-dp {
+  position: relative;
+}
+
+.cic-photo-edit {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cic-photo-edit:hover {
+  background-color: rgba(230, 230, 230, 0.452);
+}
+
+.cic-photo-edit-icon {
+  color: #7468f0;
+}
+
+.cic-eye-icon {
+  cursor: pointer;
+  color: #7468f0;
+}
+
+.table-rating {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(115, 104, 240, 0.2039215686);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-rating span {
+  color: #7468f0;
+  font-weight: 600;
+}
+
+.date-done {
+  padding: 1px;
+  border: 1px solid #03c22d;
+  border-radius: 50%;
+}
+
+.date-miss {
+  padding: 1px;
+  border: 1px solid #cf0505;
+  border-radius: 50%;
+}
+
+.circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.text {
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+}
+
+.filter-input {
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */

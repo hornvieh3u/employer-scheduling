@@ -1,0 +1,84 @@
+/* TimeRuler_css */
+.container {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding: 1rem;
+    position: relative
+}
+
+.timeline {
+    position: relative;
+}
+
+.fullDivider {
+    width: 1px;
+    height: 80px;
+    background-color: #dcdde1;
+    position: relative
+}
+
+.fullDividerWrapper {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fullDividerText {
+    position: absolute;
+    bottom: -30px;
+    color: #a4a7b2;
+    font-size: 12px;
+    left: -10px
+}
+
+.halfDivider {
+    width: 1px;
+    height: 60px;
+    background-color: #dcdde1;
+    position: relative;
+    top: 20px;
+}
+
+.trackedTimeWrapper {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* timedoctor_css */
+.timelineBox {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.timelineHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.startEndDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-items: center;
+    color: #a4a7b2;
+}
+
+.indexWrapper {
+    display: flex;
+    flex-direction: row;
+    color: #a4a7b2;
+    margin-right: 20px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}

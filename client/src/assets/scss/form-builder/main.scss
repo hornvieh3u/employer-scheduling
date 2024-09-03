@@ -1,0 +1,15 @@
+// // This is style to overwrite grapesjs default styles
+// // Please DO NOT import it anywhere else
+
+
+.gjs-cv-canvas {
+    /* remove the right gap */
+    width: 100%;
+  
+    /* remove the top gap */
+    height: 100%;
+    top: 0;
+    overflow-x: hidden;
+  }
+
+  

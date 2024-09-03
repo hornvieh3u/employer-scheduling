@@ -1,0 +1,946 @@
+/*================================================================================
+	Item Name: MyManager - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.client-info-set {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-info-set span:nth-child(2) {
+  font-weight: 700;
+}
+
+.cic-dp {
+  position: relative;
+}
+
+.cic-photo-edit {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cic-photo-edit:hover {
+  background-color: rgba(230, 230, 230, 0.452);
+}
+
+.cic-photo-edit-icon {
+  color: #7468f0;
+}
+
+.cic-eye-icon {
+  cursor: pointer;
+  color: #7468f0;
+}
+
+.table-rating {
+  height: 30px;
+  width: 30px;
+  background-color: #7368f034;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-rating span {
+  color: #7468f0;
+  font-weight: 600;
+}
+
+.date-done {
+  padding: 1px;
+  border: 1px solid #03c22d;
+  border-radius: 50%;
+}
+
+.date-miss {
+  padding: 1px;
+  border: 1px solid #cf0505;
+  border-radius: 50%;
+}
+
+.circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.text {
+  margin: auto;
+  color: #ffff;
+  font-weight: bold;
+  font-size: small;
+}
+
+.filter-input {
+  width: 250px;
+}
+
+.employee-work-history-table {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  overflow: auto;
+  height: 350px;
+}
+
+.employee-work-history-table > table {
+  width: 100%;
+  min-width: 1280px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#main-table > thead > tr > .headview {
+  min-width: 150px;
+  text-align: center;
+}
+
+.table-scroll thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+th:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+thead th:first-child,
+tfoot th:first-child {
+  z-index: 5;
+}
+
+#table-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: #ffffff;
+}
+
+#table-scroll::-webkit-scrollbar {
+  width: 0px;
+  background-color: #ffffff;
+}
+
+#table-scroll::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: none;
+}
+
+// custom css text
+
+.app-text-chat {
+  width: 35% !important;
+
+  align-items: center;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .app-text-chat {
+    width: 100% !important;
+  }
+}
+
+.app-text-userlist:hover {
+  background-color: #f5f5f5;
+}
+
+#emojiContainer {
+  position: "absolute";
+  bottom: "6%";
+  background-color: aqua;
+}
+
+.chatsMsg {
+  /* height: 100%;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+
+   
+    background-color: aqua; */
+
+  position: absolute;
+  bottom: 0px;
+
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.chat-right {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+.chat-left {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+.chat-body {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+// added custom css
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-style {
+  font-size: 1.5rem;
+  color: #fff;
+  background: #6a5deb;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.despost-text-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.despost-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.automation-add-line {
+  height: 1px;
+  width: 65px;
+  background: #666;
+  position: relative;
+  rotate: 90deg;
+}
+.automation-add-line:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #666;
+  top: 50%;
+  transform: translateY(-55%);
+  border-radius: 50%;
+}
+
+.deposit-amount {
+  text-align: center;
+  margin-top: 20px;
+}
+
+// custom css text
+
+.app-text-chat {
+  width: 35% !important;
+
+  align-items: center;
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .app-text-chat {
+    width: 100% !important;
+  }
+  .permissionAndRoles > .bs-stepper > .bs-stepper-content {
+    background-color: #f7f7f7 !important;
+    box-shadow: none !important;
+    border: none;
+  }
+}
+
+.app-text-userlist:hover {
+  background-color: #f5f5f5;
+}
+
+#emojiContainer {
+  position: "absolute";
+  bottom: "6%";
+  background-color: aqua;
+}
+
+.chatsMsg {
+  /* height: 100%;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+
+   
+    background-color: aqua; */
+
+  position: absolute;
+  bottom: 0px;
+
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.chat-right {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+.chat-left {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+.chat-body {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+//Custom_accordion__content
+
+.custom_accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom_accordion {
+  color: #8d8d8d;
+  cursor: pointer;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.custom_accordion:hover,
+.custom_active {
+  border: "1px solid #ccc";
+}
+
+.custom_accordion__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.custom_accordion__content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+.labour-badge {
+  background: #c6f1eb;
+  color: #56bd5e;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  height: 20px;
+  font-size: 12px;
+}
+.labour-header-badge {
+  background: #c6f1eb;
+  color: #56bd5e;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+  height: 25px;
+}
+
+.plus_icons {
+  display: none;
+  text-align: center;
+}
+
+.addScheduler-wrapper:hover .plus_icons {
+  display: block;
+  margin: 0 auto;
+  color: rgb(152, 150, 150);
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+
+.status-indicator.active {
+  background-color: #4caf50;
+}
+
+.status-indicator.inactive {
+  background-color: #e50c0c;
+}
+
+//Employee Schedule Weekly Styling
+
+$schedule_employee_border_color: 1px solid #ebe9f1;
+$schedule_border-color: #ebe9f1;
+
+.employee-schedule-weekly {
+  .schedule-row-title {
+    flex-grow: 0;
+    flex-basis: 330px;
+    padding: 5px;
+    border-color: $schedule_border-color !important;
+    border-top: $schedule_employee_border_color;
+    border-left: $schedule_employee_border_color;
+  }
+  .add-employee {
+    height: 100%;
+  }
+  .schedule-row-title-open-shift {
+    background-color: #acb8c6;
+  }
+  .schedule-row-cell {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0px;
+    border-color: $schedule_border-color !important;
+    border-left: $schedule_employee_border_color;
+    border-top: $schedule_employee_border_color;
+  }
+  .schedule-row-cell:last-child {
+    border-right: $schedule_employee_border_color;
+  }
+  .employee-group {
+    border-top: $schedule_employee_border_color;
+    border-right: $schedule_employee_border_color;
+    border-left: $schedule_employee_border_color;
+    border-color: $schedule_border-color !important;
+    padding: 10px;
+  }
+  .employee-positions {
+    border-bottom: $schedule_employee_border_color;
+    border-color: $schedule_border-color !important;
+    font-weight: 600;
+    margin: 0 1px;
+  }
+  .weekday-header {
+    background-color: #fda451;
+    font-weight: 600;
+    color: #ebe9e4;
+    border-radius: 5px;
+  }
+  .list-by-role__no-employee {
+    padding: 20px 0;
+    text-align: center;
+    color: #a75b5b;
+    border: $schedule_employee_border_color;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .weekly-event-view {
+    border-bottom: $schedule_employee_border_color;
+  }
+  .budget-tool span {
+    position: relative;
+    font-size: 16px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  .budget-tool span.active {
+    color: #7367f0;
+  }
+  .budget-tool span.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(30deg,#7367f0,rgba(115,103,240,.5))!important;
+  }
+  .total-collapse {
+    padding: 15px 10px;
+    box-shadow: 0 0 10px lightgrey;
+  }
+  .employee + .list-by-role__no-employee {
+    display: none;
+  }
+  .employee-group-boh,
+  .employee-group-foh {
+    background-color: #469ef9;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+  }
+  .open-shift {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .employee-info {
+    padding: 6px 6px;
+  }
+  .week-employee-drag-handler {
+    cursor: move;
+    visibility: visible;
+  }
+  .employee-details {
+    gap: 10px;
+  }
+  .employee-name {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+  }
+  .schedule-time {
+    background-color: #ffeec9;
+    color: #99772c;
+    border-bottom: 1px solid #f7f5f1;
+  }
+  .base-shift-position {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0992d6;
+    width: 28px;
+    pointer-events: none;
+  }
+  .base-shift-details {
+    padding: 6px;
+    pointer-events: none;
+    color: #000000;
+    flex-grow: 1;
+    font-size: 12px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .empty-cell-area {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #767676;
+    position: relative;
+    min-height: 30px;
+    height: 100%;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .empty-cell-area--plus-icon-hover:hover {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9Imljb24iPgogIDxwYXRoIGQ9Ik0yMy42MDUgMTAuODc1aC0xMC40OFYuNDAzYS4zNzUuMzc1IDAgMDAtLjM3NS0uMzc1aC0xLjVhLjM3NS4zNzUgMCAwMC0uMzc1LjM3NXYxMC40NzJILjM5NWEuMzc1LjM3NSAwIDAwLS4zNzUuMzc1djEuNWMwIC4yMDcuMTY4LjM3NS4zNzUuMzc1aDEwLjQ4djEwLjQ1OGMwIC4yMDcuMTY4LjM3NS4zNzUuMzc1aDEuNWEuMzc1LjM3NSAwIDAwLjM3NS0uMzc1VjEzLjEyNWgxMC40OGEuMzc1LjM3NSAwIDAwLjM3NS0uMzc1di0xLjVhLjM3NS4zNzUgMCAwMC0uMzc1LS4zNzV6IiBmaWxsPSIjOTY5Njk2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    cursor: pointer;
+  }
+  /* Projection and Actual Panel */
+  .projection-actual-panel {
+    position: sticky;
+    box-shadow: 0 5px 10px -5px;
+    .nav-link.active {
+      color: #00bbff !important;
+      font-weight: 600;
+    }
+    .total-budget-title {
+      flex-grow: 0;
+      flex-basis: 330px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      min-width: 254px;
+      padding: 0 12px 0 8px;
+      border-left: 1px solid;
+      border-top: 1px solid;
+      padding: 2px 8px;
+      border-color: $schedule_border-color !important;
+    }
+    .total-budget-row--table {
+      border-bottom: $schedule_employee_border_color;
+    }
+    .total-budget-title-cell {
+      flex-grow: 1;
+      flex-basis: 0;
+      border-left: 1px solid;
+      border-top: 1px solid;
+      padding: 2px 8px;
+      border-color: $schedule_border-color !important;
+    }
+    .total-budget-title-cell:last-child {
+      border-right: 1px solid;
+      border-color: $schedule_border-color !important;
+    }
+    .total-budget-title-row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+    .budget-tool-content-title {
+      font-size: 14px;
+      color: #1a1c1c;
+      line-height: 12px;
+      width: 50%;
+      font-weight: bold;
+      margin-left: 4px;
+    }
+    .budget-tool-content-title--rate {
+      display: inline-block;
+      border: 1px solid #c6f1eb;
+      border-radius: 12px;
+      padding: 3px 7px;
+      font-size: 12px;
+      color: #56bd5e;
+      font-weight: bolder;
+      background: #c6f1eb;
+    }
+    .projected-labor-hours {
+      padding: 5px 5px 5px 30px;
+      .projected-labor-hours-cell {
+        color: #000000;
+        font-weight: 600;
+      }
+    }
+    .group-labor-hours {
+      .hours-title {
+        flex-grow: 0;
+        flex-basis: 330px;
+        border-left: $schedule_employee_border_color;
+        border-top: $schedule_employee_border_color;
+        padding: 10px 5px;
+      }
+      .hours-title-cell {
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 10px 5px;
+        border-left: $schedule_employee_border_color;
+        border-top: $schedule_employee_border_color;
+      }
+      .hours-title-foh {
+        border-bottom: $schedule_employee_border_color;
+      }
+      .hours-title-cell-foh {
+        border-bottom: $schedule_employee_border_color;
+      }
+      .hours-title-cell:last-child {
+        border-right: $schedule_employee_border_color;
+      }
+      .group-title-cell {
+        padding-right: 50px;
+        color: #000000;
+        font-weight: 600;
+      }
+      .group-hours-cost {
+        background-color: #c6f1eb;
+        padding: 2px 8px;
+        border-radius: 8px;
+        color: #56bd5e;
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+// Weekly Add Shift Modal Styling
+.weekly-add-shift-modal {
+  .weekly-day {
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #fa7102;
+    cursor: pointer;
+    padding: 1px 5px;
+  }
+  .weekly-day-selected {
+    background-color: #fa7102;
+    border-color: #fa7102;
+    color: #fff;
+  }
+}
+// END
+
+// Start - Employee Schedule Daily Styling
+.employee-schedule-daily {
+  .daily-row--title {
+    flex-grow: 0;
+    flex-basis: 330px;
+    padding: 2px 5px;
+    border-left: $schedule_employee_border_color;
+    border-top: $schedule_employee_border_color;
+  }
+  .daily-row-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border-top: $schedule_employee_border_color;
+    border-left: $schedule_employee_border_color;
+  }
+  .daily-row-cell:last-child {
+    border-right: $schedule_employee_border_color;
+  }
+  /*End*/
+
+  //Day View Form
+  .day-view-form {
+    flex-grow: 18;
+    position: relative;
+  }
+  /* END */
+  //Empty Employee
+  .empty-cell-area {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #272626;
+    position: relative;
+    min-height: 30px;
+    height: 100%;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .empty-cell-area--plus-icon-hover:hover {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9Imljb24iPgogIDxwYXRoIGQ9Ik0yMy42MDUgMTAuODc1aC0xMC40OFYuNDAzYS4zNzUuMzc1IDAgMDAtLjM3NS0uMzc1aC0xLjVhLjM3NS4zNzUgMCAwMC0uMzc1LjM3NXYxMC40NzJILjM5NWEuMzc1LjM3NSAwIDAwLS4zNzUuMzc1djEuNWMwIC4yMDcuMTY4LjM3NS4zNzUuMzc1aDEwLjQ4djEwLjQ1OGMwIC4yMDcuMTY4LjM3NS4zNzUuMzc1aDEuNWEuMzc1LjM3NSAwIDAwLjM3NS0uMzc1VjEzLjEyNWgxMC40OGEuMzc1LjM3NSAwIDAwLjM3NS0uMzc1di0xLjVhLjM3NS4zNzUgMCAwMC0uMzc1LS4zNzV6IiBmaWxsPSIjOTY5Njk2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    cursor: pointer;
+  }
+  .list-by-role__no-employee {
+    padding: 12px 0;
+    text-align: center;
+    color: #a75b5b;
+    border: $schedule_employee_border_color;
+  }
+  /* END*/
+
+  // Day Event Style
+  .event-title {
+    font-weight: 600;
+    color: #1936db;
+  }
+
+  .event-row {
+    padding: 10px 15px;
+  }
+  .open-shift-title {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+  }
+  .open-shift-row {
+    background-color: #7e8383;
+  }
+
+  /*End*/
+
+  //Daily Group Styling
+  .daily-group {
+    border-left: $schedule_employee_border_color;
+    border-right: $schedule_employee_border_color;
+    border-bottom: $schedule_employee_border_color;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 800;
+    background-color: #eb154b;
+  }
+  /*End*/
+  //Daily Postion Styling
+  .daily-position {
+    border-left: $schedule_employee_border_color;
+    border-right: $schedule_employee_border_color;
+    border-bottom: $schedule_employee_border_color;
+    padding: 0 2px;
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 600;
+  }
+  .daily-position-1 {
+    background-color: #f54a0c;
+  }
+  .daily-position-2 {
+    background-color: #99e359;
+  }
+  .daily-position-3 {
+    background-color: #236dc2;
+  }
+  .daily-position-4 {
+    background-color: #c367cf;
+  }
+  .daily-position-5 {
+    background-color: #555555;
+  }
+  /*End*/
+
+  //Daily Employee Row Styling
+  .daily-employee-details {
+    padding: 2px;
+    gap: 40px;
+  }
+  .daily-employee-info {
+    font-weight: 600;
+    color: #000000;
+  }
+  /*End*/
+
+  //Daily Labor Cost
+  .daily-labor-cost {
+    border-bottom: $schedule_employee_border_color;
+  }
+  .labor-cost-title {
+    padding: 2px 20px;
+  }
+  .daily-labor-cost-percent {
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #f7d1d1;
+  }
+  .daily-labor-actual {
+    font-weight: 700;
+    color: #000000;
+  }
+  .daily-labor-cell-cost {
+    font-weight: 600;
+    color: #000000;
+  }
+  /* END */
+
+  //Base Day Shift
+  .base-daily-shift {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 1px 1px #d5d5d5;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    color: #464646;
+    line-height: 1;
+    position: absolute;
+    // height: 40px;
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+  }
+  .base-daily-shift--draft {
+    background-color: #ffeec9;
+    color: #99772c;
+    // /* transform: translateY(8%);
+  }
+  .base-day-shift__role {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(84, 172, 197);
+    width: 28px;
+    pointer-events: none;
+  }
+  .base-day-shift__details {
+    padding: 8px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+  .shift-status-icon {
+    flex: 0 0;
+    padding: 8px;
+    pointer-events: auto;
+  }
+  .base-day-shift__time {
+    font-size: 14px;
+    margin: 0;
+  }
+  .base-day-shift__station {
+    font-size: 12px;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 8px;
+  }
+}
+// END - Employee Schedule Daily Styling

@@ -1,0 +1,154 @@
+@import '../../@core/scss/base/bootstrap-extended/include';
+@import '../../@core/scss/base/components/include';
+
+// Task Application css starts
+.task-application {
+  width: 100%;
+  height: 100%;
+  // Content area wrapper border
+  // height: calc(100vh - 17.6rem);
+
+  .content-body {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+
+    .task-app-list {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .task-workspace {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .app-workspace-wrapper {
+          display: contents;
+        }
+      }
+      .task-list-wrapper {
+        .task-task-list-wrapper {
+          height: 100%;
+        }
+      }
+      .list-group {
+        border-radius: 0px;
+        border: none;
+      }
+    }
+
+    // Todo Fixed search
+    .app-fixed-search {
+      background-color: $white;
+      padding: 0.4215rem 0.5rem;
+      border-bottom: 1px solid $border-color;
+      .input-group:focus-within {
+        box-shadow: none;
+      }
+      input,
+      .input-group-text {
+        border: 0;
+        background-color: transparent;
+      }
+    }
+
+    .task-title {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .completed {
+      .task-title {
+        color: $text-muted;
+      }
+    }
+    // Task task list area
+    .task-task-list-wrapper {
+      position: relative;
+      height: calc(100% - 7.45rem);
+      background-color: $white;
+      border-radius: 0;
+      padding: 0.5rem 0.6rem 0.5rem 0;
+      .task-task-list {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+          cursor: pointer;
+          transition: all 0.2s, border-color 0s;
+          position: relative;
+          padding: 0.893rem 2rem;
+          &:not(:first-child) {
+            border-top: 1px solid $border-color;
+          }
+          &:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 3px 10px 0 $border-color;
+            transition: all 0.2s;
+          }
+          .task-title-wrapper {
+            display: flex;
+            justify-content: space-between;
+          }
+          .task-title-area,
+          .title-wrapper {
+            display: flex;
+            align-items: center;
+          }
+          // Todo Item Action
+          .task-item-action {
+            display: flex;
+            align-items: center;
+            > small {
+              margin-left: auto;
+            }
+            a {
+              cursor: pointer;
+              font-size: 1.2rem;
+              line-height: 1.5;
+            }
+          }
+
+          .badge-wrapper {
+            display: flex;
+            .badge:not(:last-child) {
+              margin-right: 0.5rem;
+            }
+          }
+        }
+      }
+      // When we search, no-results
+      .no-results {
+        display: none;
+        padding: 1.5rem;
+        text-align: center;
+        &.show {
+          display: block;
+        }
+      }
+    }
+  }
+  .task-item {
+    .drag-icon {
+      visibility: hidden;
+      cursor: move;
+      position: absolute;
+      left: 0.2rem;
+      width: 1.75rem;
+      height: 4rem;
+      padding: 0 5px;
+    }
+    &:hover {
+      .drag-icon {
+        visibility: visible;
+      }
+    }
+  }
+
+  // validation text style
+  form .error:not(li):not(input) {
+    color: $danger;
+    font-size: 85%;
+    margin-top: 0.25rem;
+  }
+}

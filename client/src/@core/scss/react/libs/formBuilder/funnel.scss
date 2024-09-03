@@ -1,0 +1,114 @@
+    .funnelType {
+      img {
+        height: 60px;
+      }
+  
+      .title {
+        margin-top: 24px;
+        font-size: 20px;
+      }
+  
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .funnelType.active {
+      border: 2px solid #0BE03A;
+      background-color: #eaf4fe;
+    }
+  
+    .templates_card {
+      .title {
+        padding: 1rem;
+        font-size: 16px;
+      }
+  
+      .create_title {
+        padding: 1rem;
+        font-size: 20px;
+        align-self: center;
+      }
+  
+      .truncate-ellipsis {
+        width: 100%;
+        padding: 0 1rem 1rem 1rem;
+      }
+  
+      .text-monospace {
+        max-width: 100%;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 54px;
+        font-size: 12px;
+        color: #878787;
+      }
+    }
+  
+    .templates_card.active {
+      border: 2px solid #0BE03A;
+    }
+  
+    .steps {
+      :first-child {
+        &:hover {
+          color: rgb(33, 150, 243);
+          background: none;
+        }
+      }
+      cursor: pointer;
+  
+      div {
+        min-width: 0px;
+      }
+  
+      &:hover {
+        color: rgb(33, 150, 243);
+        background: rgb(234, 244, 254);
+  
+      }
+  
+      .left-background {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+  
+    }
+  
+    .steps.active {
+      .left-background {
+        min-width: 3px;
+        width: 3px;
+        height: 100%;
+        background: rgb(33, 150, 243);
+      }
+  
+      .right-remove {
+        position: absolute;
+        right: 16px;
+        min-width: 0px;
+      }
+  
+      background: rgb(234, 244, 254);
+    }
+  
+    .template_img {
+      padding: 2rem;
+    }
+  
+    button {
+      border-radius: 5px;
+    }
+  
+  .form-stepper.modal-dialog {
+    max-width: 80%;
+  }
+  
+  
+  @media (max-width: 576px) {}

@@ -1,0 +1,38 @@
+.activeMainFolder {
+    background-color: #eaf4fe;
+    max-height: 42px;
+
+    &.button {
+        color: #2796f3;
+    }
+}
+
+.inActiveFolder {
+    &:hover {
+        background-color: #eaf4fe;
+    }
+}
+
+.folderBtn {
+    background-color: #eaf4fe;
+    text-transform: inherit !important;
+    text-align: left;
+    justify-content: start !important;
+
+    &:hover {
+        background-color: #b6ecf3
+    }
+}
+
+.listWrapper {
+    background-color: #fff;
+    position: relative;
+    min-height: 90vh;
+    border-right: 2px solid #e0dede;
+}
+
+.addMianFOlder {
+    color: #fff;
+    background-color: #2796f3;
+    font-weight: bold !important;
+}

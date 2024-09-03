@@ -1,0 +1,5 @@
+#!/bin/sh
+# git pull origin main
+. "$(dirname "$0")/_/husky.sh"
+
+cd ./client && npx lint-staged 

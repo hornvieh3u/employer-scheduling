@@ -1,0 +1,83 @@
+@import "../bootstrap-extended/include"; // Bootstrap includes
+@import "../components/include"; // Components includes
+
+.project-group-rotate-icon {
+    transform: rotate(180deg);
+}
+
+.project-group-rotate-start {
+    transform: rotate(0deg);
+}
+
+.group-title:hover {
+    background-color: #fff !important;
+}
+
+.project-dropdown>a {
+    margin-right: 0px !important;
+}
+
+.project-table-fields>.react-select>.select__control>.select__value-container {
+    text-align: left !important;
+    padding-left: 1rem !important;
+}
+
+.overflow-none {
+    overflow: unset !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+.project-table-collapse>div>table {
+    margin-bottom: auto !important;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.project-table-collapse>div>table>thead>tr>th {
+    border-top: 1px solid #ebe9f1;
+    border-right: 1px solid #ebe9f1;
+    border-left: 1px solid #ebe9f1;
+}
+
+.project-table-collapse>div>table>tbody>tr>td {
+    border-bottom: 1px solid #ebe9f1;
+    border-top: 1px solid #ebe9f1;
+    border-right: 1px solid #ebe9f1;
+    border-left: 1px solid #ebe9f1;
+}
+
+.project-reactPaginate {
+    position: fixed;
+    bottom: 0%;
+    right: 0;
+}
+
+.project-table-row>td:first-child {
+    text-align: center;
+    position: sticky;
+    left: 0;
+    z-index: 20;
+    border-bottom: 1px solid #ebe9f1;
+    background-color: #f8f8f8;
+}
+
+.dropdown-menu>.dropdown-item {
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: stretch;
+}
+
+.dropdown-item>.project-column-delete {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#Project>div>.dropdown,
+#Manager>div>.dropdown,
+#Date>div>.dropdown {
+    display: none;
+}
